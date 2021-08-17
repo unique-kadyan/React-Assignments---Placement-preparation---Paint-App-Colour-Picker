@@ -32,9 +32,9 @@ const App = () => {
     updateSelectionStyle(nextBackground);
   };
 
-  // useEffect(()=>{
-  //   console.log(nextBackground)
-  // },[nextBackground])
+  useEffect(()=>{
+    console.log(nextBackground)
+  },[nextBackground])
 
   return (
     <div id="master">
