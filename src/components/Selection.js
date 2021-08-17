@@ -10,9 +10,9 @@ export default function Selection({ applyColor }) {
     console.log("done")
   }
 
-  // useEffect(()=>{
-  //   console.log(color)
-  // },[color])
+  useEffect(()=>{
+    console.log(color)
+  },[color])
 
   return (
     <div
